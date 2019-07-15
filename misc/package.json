@@ -1,0 +1,15 @@
+{
+  "name": "crontab-update",
+  "version": "1.0.0",
+  "description": "crontab update Id and avatar",
+  "main": "update-avatar.js",
+  "scripts": {
+    "start": "node update-avatar.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
