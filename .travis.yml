@@ -19,3 +19,6 @@ script:
 branches:
   only:
     - crontab-update
+
+env:
+  - ACCESS_TOKEN=$ACCESS_TOKEN
