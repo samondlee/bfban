@@ -1,5 +1,6 @@
 // 自动更新avatar 以及 游戏id
 const axios = require('axios');
+const { ACCESS_TOKEN } = process.env;
 let accessToken;
 
 try {
@@ -9,7 +10,7 @@ try {
 }
 
 if (!accessToken)
-  accessToken = $ACCESS_TOKEN;
+  accessToken = ACCESS_TOKEN;
 
 // 每次运行需手动修改 game & page & token(cookie里找)
 // token
