@@ -16,7 +16,7 @@ if (!accessToken)
 // token
 const limit = 2430;
 const token = accessToken;
-const baseUrlApi = 'https://bfban.com/api';
+const baseUrlApi = 'https://bf.bamket.com/api';
 // const baseUrlApi = 'http://localhost:4000/api';
 
 
